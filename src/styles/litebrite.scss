@@ -47,6 +47,12 @@
 .peg--active.peg--blue {
   @include peg(rgb(94, 200, 204));
 }
+.peg--active.peg--yellow {
+  @include peg(yellow);
+}
+.peg--active.peg--lime {
+  @include peg(lime);
+}
 
 .peg--active.peg--crazy {
   @include peg(hotpink);
@@ -85,11 +91,23 @@
       border-color: rgb(94, 200, 204);
     }
   }
-
-  &--crazy {
-    background: hotpink;
+  &--yellow {
+    background: yellow;
+    &.color-picker--active {
+      border-color: yellow;
+    }
+  }
+  &--lime {
+    background: lime;
     &.color-picker--active {
       border-color: lime;
+    }
+  }
+
+  &--hotpink {
+    background: hotpink;
+    &.color-picker--active {
+      border-color: hotpink;
     }
   }
 }

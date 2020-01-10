@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Peg from "./Peg";
 import "../styles/litebrite.scss"
 
-const colors = ["red", "orange", "blue", "crazy"];
+const colors = ["red", "orange", "blue", "yellow", "lime", "hotpink"];
 
 export default class LiteBrite extends Component {
   state = {
