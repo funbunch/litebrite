@@ -9,6 +9,8 @@
 /coverage
 
 # production
+/build
+/deploy-directory
 
 # misc
 .DS_Store
