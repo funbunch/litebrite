@@ -1,0 +1,95 @@
+.lite-brite {
+  font-size: 0px;
+  background: #000;
+
+  &--classic {
+    .row:nth-child(even) {
+      position: relative;
+      left: 10px;
+    }
+  }
+}
+.row {
+  margin-bottom: 4px;
+}
+.column {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+.peg {
+  font-size: 15px;
+  color: #ffffff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+@mixin peg($color) {
+  background: radial-gradient(circle, lighten($color, 10%) 0%, $color 100%);
+  box-shadow: 0 0 15px $color;
+}
+
+.peg--active.peg--orange {
+  @include peg(#ff6000);
+}
+.peg--active.peg--red {
+  @include peg(red);
+}
+.peg--active.peg--blue {
+  @include peg(rgb(94, 200, 204));
+}
+
+.peg--active.peg--crazy {
+  @include peg(hotpink);
+}
+
+.color-picker {
+  font-size: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 0;
+  border-radius: 100%;
+
+  border: 1px solid black;
+  box-shadow: 0 0 0 2px #000 inset;
+
+  outline: 0;
+
+  &--red {
+    background: red;
+    &.color-picker--active {
+      border-color: red;
+    }
+  }
+
+  &--orange {
+    background: #ff6000;
+    &.color-picker--active {
+      border-color: #ff6000;
+    }
+  }
+  &--blue {
+    background: rgb(94, 200, 204);
+    &.color-picker--active {
+      border-color: rgb(94, 200, 204);
+    }
+  }
+
+  &--crazy {
+    background: hotpink;
+    &.color-picker--active {
+      border-color: lime;
+    }
+  }
+}
