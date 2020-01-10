@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c5858b0ea0e08a66add5addc2a3df18",
+    "revision": "82441a3175f8a23cc397d5e1bd8695a0",
     "url": "/litebrite/index.html"
   },
   {
-    "revision": "e08df19cf5621818750b",
-    "url": "/litebrite/static/css/main.de5eb355.chunk.css"
+    "revision": "9d5caafdf03d826a0331",
+    "url": "/litebrite/static/css/main.93f6fe83.chunk.css"
   },
   {
     "revision": "069c020282419a31fdc6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/litebrite/static/js/2.b18ba848.chunk.js.LICENSE"
   },
   {
-    "revision": "e08df19cf5621818750b",
-    "url": "/litebrite/static/js/main.ee25156d.chunk.js"
+    "revision": "9d5caafdf03d826a0331",
+    "url": "/litebrite/static/js/main.e2b3eae1.chunk.js"
   },
   {
     "revision": "4e677f57799d28772ce2",

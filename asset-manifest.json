@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/litebrite/static/css/main.de5eb355.chunk.css",
-    "main.js": "/litebrite/static/js/main.ee25156d.chunk.js",
-    "main.js.map": "/litebrite/static/js/main.ee25156d.chunk.js.map",
+    "main.css": "/litebrite/static/css/main.93f6fe83.chunk.css",
+    "main.js": "/litebrite/static/js/main.e2b3eae1.chunk.js",
+    "main.js.map": "/litebrite/static/js/main.e2b3eae1.chunk.js.map",
     "runtime-main.js": "/litebrite/static/js/runtime-main.03df8f6a.js",
     "runtime-main.js.map": "/litebrite/static/js/runtime-main.03df8f6a.js.map",
     "static/js/2.b18ba848.chunk.js": "/litebrite/static/js/2.b18ba848.chunk.js",
     "static/js/2.b18ba848.chunk.js.map": "/litebrite/static/js/2.b18ba848.chunk.js.map",
     "index.html": "/litebrite/index.html",
-    "precache-manifest.13d36f59831617d0dcffc314f8e10999.js": "/litebrite/precache-manifest.13d36f59831617d0dcffc314f8e10999.js",
+    "precache-manifest.d89ed099fb36b8a93faacf848736b3fc.js": "/litebrite/precache-manifest.d89ed099fb36b8a93faacf848736b3fc.js",
     "service-worker.js": "/litebrite/service-worker.js",
-    "static/css/main.de5eb355.chunk.css.map": "/litebrite/static/css/main.de5eb355.chunk.css.map",
+    "static/css/main.93f6fe83.chunk.css.map": "/litebrite/static/css/main.93f6fe83.chunk.css.map",
     "static/js/2.b18ba848.chunk.js.LICENSE": "/litebrite/static/js/2.b18ba848.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.03df8f6a.js",
     "static/js/2.b18ba848.chunk.js",
-    "static/css/main.de5eb355.chunk.css",
-    "static/js/main.ee25156d.chunk.js"
+    "static/css/main.93f6fe83.chunk.css",
+    "static/js/main.e2b3eae1.chunk.js"
   ]
 }
