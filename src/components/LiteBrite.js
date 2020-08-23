@@ -78,9 +78,9 @@ export default (props) => {
         ))}
       </div>
       <div className="light-brite__colors">
-        {colors.map(color => (
+        {colors.map((color, i) => (
           <button
-            className={`color-picker color-picker--${color} ${
+          key={i} className={`color-picker color-picker--${color} ${
               color === selectedColor
                 ? " color-picker--active"
                 : ""
