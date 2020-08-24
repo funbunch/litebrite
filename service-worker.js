@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/litebrite/precache-manifest.e5010bf8a2606f50f88c123a41175fa8.js"
+  "/litebrite/precache-manifest.622d5c47aa64a6fcc6e9c00cf4b7de02.js"
 );
 
 self.addEventListener('message', (event) => {
