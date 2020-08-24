@@ -1,3 +1,14 @@
+Lite-Brite App
+
+Digital version of the old school Lite-Brite toy.
+
+<img src="images/screen-1.jpg" width=445 /> 
+
+<img src="images/screen-2.jpg" />
+
+<img src="images/screenshot-clear.jpg" width=700 />
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
