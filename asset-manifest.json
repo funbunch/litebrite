@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/litebrite/static/css/main.93f6fe83.chunk.css",
-    "main.js": "/litebrite/static/js/main.139d95dc.chunk.js",
-    "main.js.map": "/litebrite/static/js/main.139d95dc.chunk.js.map",
+    "main.js": "/litebrite/static/js/main.31e52c12.chunk.js",
+    "main.js.map": "/litebrite/static/js/main.31e52c12.chunk.js.map",
     "runtime-main.js": "/litebrite/static/js/runtime-main.03df8f6a.js",
     "runtime-main.js.map": "/litebrite/static/js/runtime-main.03df8f6a.js.map",
     "static/js/2.e893fa1b.chunk.js": "/litebrite/static/js/2.e893fa1b.chunk.js",
     "static/js/2.e893fa1b.chunk.js.map": "/litebrite/static/js/2.e893fa1b.chunk.js.map",
     "index.html": "/litebrite/index.html",
-    "precache-manifest.622d5c47aa64a6fcc6e9c00cf4b7de02.js": "/litebrite/precache-manifest.622d5c47aa64a6fcc6e9c00cf4b7de02.js",
+    "precache-manifest.cc9a85c2cdb3002063f1ca681a2c58a5.js": "/litebrite/precache-manifest.cc9a85c2cdb3002063f1ca681a2c58a5.js",
     "service-worker.js": "/litebrite/service-worker.js",
     "static/css/main.93f6fe83.chunk.css.map": "/litebrite/static/css/main.93f6fe83.chunk.css.map",
     "static/js/2.e893fa1b.chunk.js.LICENSE": "/litebrite/static/js/2.e893fa1b.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.03df8f6a.js",
     "static/js/2.e893fa1b.chunk.js",
     "static/css/main.93f6fe83.chunk.css",
-    "static/js/main.139d95dc.chunk.js"
+    "static/js/main.31e52c12.chunk.js"
   ]
 }
