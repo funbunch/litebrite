@@ -11,9 +11,9 @@ import './App.css';
 function App() {
   // return 
   return (
-    <Router>
+    <Router basename={'/litebrite'}>
       <Switch>
-        <Route exact path='/'>
+      <Route exact path='/'>
           <LiteBrite classic cols={22} rows={19} />
         </Route>
 
