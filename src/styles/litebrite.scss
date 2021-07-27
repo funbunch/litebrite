@@ -1,3 +1,8 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .lite-brite {
   font-size: 0px;
   background: #000;
@@ -54,8 +59,13 @@
   @include peg(lime);
 }
 
-.peg--active.peg--crazy {
+.peg--active.peg--hotpink {
   @include peg(hotpink);
+}
+
+.light-brite__colors {
+  display: flex;
+  justify-content: center;
 }
 
 .color-picker {
@@ -110,4 +120,7 @@
       border-color: hotpink;
     }
   }
+}
+.clear {
+  margin-top: 5px;
 }

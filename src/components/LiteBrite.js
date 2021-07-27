@@ -36,6 +36,7 @@ export default (props) => {
               )
             ).map((_, y) => {
               const pegState = activeLights[`${x},${y}`];
+              //console.log(typeof pegState, "🧲")
               return (
                 <div
                   className="column"
